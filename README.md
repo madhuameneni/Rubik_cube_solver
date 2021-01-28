@@ -29,10 +29,17 @@ A cube definition string "UBL..." means that in position U1 we have the U-color,
 
 So, for example, a definition of a solved cube would be UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB
 
+Solution string consists of space-separated parts, each of them represents a single move:
+
+A single letter by itself means to turn that face clockwise 90 degrees.
+A letter followed by an apostrophe means to turn that face counterclockwise 90 degrees.
+A letter with the number 2 after it means to turn that face 180 degrees.
+e.g. R U R’ U R U2 R’ U
+
 The algorithm called Kociemba is used for solving the Rubik Cube.And the obtained data is been used for rotation of the rubik cube.
 
 The whole procedure is been deployed in Raspberry pi and passed to the Aurdino via UART then the rotation is done.
 
-Tools used : Pycharm, putty, vnc, OpenCV, numpy, imutils etc.
+# Tools used : Pycharm, putty, vnc, OpenCV, numpy, imutils etc.
 
 
