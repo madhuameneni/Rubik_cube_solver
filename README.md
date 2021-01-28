@@ -1,5 +1,5 @@
 # Rubik_cube_solver
-The main is to detect the colors of the cube using 4 camera's using fixed co-ordinates on the captured image.And then recognize the color using OpenCV and place them back to the faces as shown below.
+The main objective is to detect the colors of the cube using 4 camera's using fixed co-ordinates on the captured image.And then recognize the color using OpenCV and place them back to the faces as shown below.
 More sanity check is been written before running into Kociemba to make sure the colors detected are correct.And an dynamic 2D representaion is of the current Rubik cube is been implemented for visual purpose.
 
                 |************|
